@@ -1,0 +1,75 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: antiquewhite;
+}
+
+img {
+  width: 150px;
+  height: auto;
+  display: block; /* Center the logo if needed */
+  margin: 0 auto;
+  border: solid;
+  border-radius: 80px;
+  margin-bottom: 2.5%;
+}
+
+header {
+    background-color: #007BFF;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    padding-bottom: 0px;
+}
+.container_2 {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.5);
+    border-radius: 25px;
+}
+
+h1 {
+    font-size: 36px;
+}
+
+p {
+    font-size: 18px;
+}
+
+.cta-button {
+    display: inline-block;
+    background-color: #007BFF;
+    color: #fff;
+    padding: 10px 20px;
+    font-size: 20px;
+    text-decoration: none;
+    margin-top: 0px;
+    border-radius: 20px;
+    text-align: center;
+}
+
+.cta-button:hover {
+    background-color: #555;
+    transition-duration: 0.3s;
+}
+.cta-button::after {
+    color: #fff;
+    background-color: #007BFF;
+
+}
+
+footer {
+    background-color: #007BFF;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
